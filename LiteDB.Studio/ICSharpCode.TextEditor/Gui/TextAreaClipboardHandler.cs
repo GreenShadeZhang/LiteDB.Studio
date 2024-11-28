@@ -122,7 +122,7 @@ namespace ICSharpCode.TextEditor
 			try {
 				Clipboard.SetDataObject(dataObject, true);
 			} catch (ExternalException) {
-				Timer timer = new Timer();
+				System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
 				timer.Interval = 100;
 				timer.Tick += delegate {
 					timer.Stop();
