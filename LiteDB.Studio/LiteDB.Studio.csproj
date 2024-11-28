@@ -5,6 +5,7 @@
 		<Nullable>enable</Nullable>
 		<UseWindowsForms>true</UseWindowsForms>
 		<ImplicitUsings>enable</ImplicitUsings>
+		<Platforms>AnyCPU;ARM64;x64</Platforms>
 	</PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>LiteDB.Studio.ico</ApplicationIcon>
