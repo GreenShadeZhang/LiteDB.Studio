@@ -72,7 +72,8 @@ namespace ICSharpCode.TextEditor
 		/// </value>
 		[Browsable(false)]
 		[ReadOnly(true)]
-		public string FileName {
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public string FileName {
 			get {
 				return currentFileName;
 			}

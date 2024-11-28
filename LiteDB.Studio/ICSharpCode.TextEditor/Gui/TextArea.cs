@@ -130,8 +130,9 @@ namespace ICSharpCode.TextEditor
 				return Document.TotalNumberOfLines * TextView.FontHeight;
 			}
 		}
-		
-		public Point VirtualTop {
+
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public Point VirtualTop {
 			get {
 				return virtualTop;
 			}
@@ -145,8 +146,9 @@ namespace ICSharpCode.TextEditor
 				caret.UpdateCaretPosition();
 			}
 		}
-		
-		public bool AutoClearSelection {
+
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public bool AutoClearSelection {
 			get {
 				return autoClearSelection;
 			}

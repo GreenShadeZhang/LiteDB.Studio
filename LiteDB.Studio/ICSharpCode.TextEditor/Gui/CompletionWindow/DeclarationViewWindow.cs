@@ -10,6 +10,7 @@ using System.Drawing;
 using System.Windows.Forms;
 
 using ICSharpCode.TextEditor.Util;
+using System.ComponentModel;
 
 namespace ICSharpCode.TextEditor.Gui.CompletionWindow
 {
@@ -27,8 +28,9 @@ namespace ICSharpCode.TextEditor.Gui.CompletionWindow
 	{
 		string description = String.Empty;
 		bool fixedWidth;
-		
-		public string Description {
+
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public string Description {
 			get {
 				return description;
 			}
@@ -42,8 +44,9 @@ namespace ICSharpCode.TextEditor.Gui.CompletionWindow
 				}
 			}
 		}
-		
-		public bool FixedWidth {
+
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public bool FixedWidth {
 			get {
 				return fixedWidth;
 			}

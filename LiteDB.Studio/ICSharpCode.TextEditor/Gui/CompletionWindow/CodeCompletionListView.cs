@@ -11,6 +11,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
+using System.ComponentModel;
 
 namespace ICSharpCode.TextEditor.Gui.CompletionWindow
 {
@@ -26,12 +27,14 @@ namespace ICSharpCode.TextEditor.Gui.CompletionWindow
         int _selectedItem = -1;
         ImageList _imageList;
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public ImageList ImageList
         {
             get => _imageList;
             set => _imageList = value;
         }
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public int FirstItem
         {
             get => _firstItem;

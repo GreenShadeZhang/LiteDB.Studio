@@ -78,6 +78,7 @@ namespace ICSharpCode.TextEditor
 			}
 		}
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public bool AutoHideScrollbars {
             get {
                 return autoHideScrollbars;
@@ -87,8 +88,9 @@ namespace ICSharpCode.TextEditor
                 AdjustScrollBars();
             }
         }
-		
-		public bool DoHandleMousewheel {
+
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public bool DoHandleMousewheel {
 			get {
 				return doHandleMousewheel;
 			}
