@@ -69,8 +69,8 @@ namespace LiteDB.Studio
             };
 
             // set assembly version on window title
-            this.Text += $" (LiteDB.Studio: v{typeof(MainForm).Assembly.GetName().Version.ToString()}";
-            this.Text += $" - LiteDB v5.0.15)"; // how do I get this version? (ILMerge ommits LiteDB assembly)
+            this.Text += $" (LiteDB.Studio Modified By Verdure: v{typeof(MainForm).Assembly.GetName().Version.ToString()}";
+            this.Text += $" - .NET8 LiteDB v5.0.15)"; // how do I get this version? (ILMerge ommits LiteDB assembly)
 
             // load last db
 
