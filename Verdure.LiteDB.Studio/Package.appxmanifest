@@ -7,13 +7,13 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="e421fe26-5b7c-4fde-8683-698a88fad5e2"
-    Publisher="CN=gil"
+    Name="37619DC86D31F.WSAPartner"
+    Publisher="CN=829B8DD1-2BF4-465F-8663-BB54D1109ED6"
     Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>Verdure.LiteDB.Studio</DisplayName>
-    <PublisherDisplayName>gil</PublisherDisplayName>
+    <DisplayName>Verdure LiteDB Studio</DisplayName>
+    <PublisherDisplayName>绿荫阿广</PublisherDisplayName>
     <Logo>Images\StoreLogo.png</Logo>
   </Properties>
 
